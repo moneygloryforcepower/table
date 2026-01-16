@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial;
+    padding: 0px;
+    box-sizing: border-box; 
+    margin: 20px auto; 
+}
+
+h2 { 
+    margin-top: 40px; 
+}
+
+table { 
+    border-collapse: collapse; 
+    margin-bottom: 30px; 
+}
+
+th, td { 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: center; 
+    width: 100px;
+}
+
+th { 
+    background-color: #f0f0f0; 
+}
+
+.chart-container { 
+    width: 100%; 
+    max-width: 900px; 
+    margin: auto 0 50px; 
+}

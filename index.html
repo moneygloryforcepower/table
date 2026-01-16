@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Перекличка студентов по дням</h1>
+    <div id="groups" class="flex justify-center gap-20"></div>
+    <div class="flex gap-20">
+        <div class="chart-container">
+            <canvas id="barChart" class="w-80"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="pieChart" class="w-80"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="lineChart" class="w-80"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
